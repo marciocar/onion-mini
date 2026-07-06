@@ -25,8 +25,8 @@ do seu comportamento (personas, Fase Zero, fluxos). Os ciclos detalhados vivem e
 
 | Arquivo | Papel |
 |---|---|
-| `docs/business-context-lite.md` | **SSOT de Produto** (visão, dores, backlog, specs) — cite, nunca duplique |
-| `docs/technical-context-lite.md` | **SSOT de Engenharia** (stack, padrões, arquitetura, planos) — idem |
+| `docs/business-context-lite.md` | **SSOT de Produto** (visão, personas, dores, métricas, backlog, specs, redesenhos PLEA) — seções mapeiam as camadas do Onion completo |
+| `docs/technical-context-lite.md` | **SSOT de Engenharia** (stack, padrões, arquitetura, ADR-lite, planos, débitos, redesenhos PLEA) — idem |
 | `docs/onion-cycles.md` | Os 5 ciclos (Produto · Engenharia · KB · Sync · Sessões) |
 | `docs/sessions/` | Registro de sessões (`/session "topico"`) |
 | `docs/knowledge-base/` | KBs geradas pelo `@meta` (pasta criada sob demanda) |

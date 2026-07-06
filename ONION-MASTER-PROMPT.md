@@ -31,7 +31,7 @@ Todo trabalho segue **Planificar → Executar → Avaliar** — inclusive dentro
 - **Planificar:** antes de agir, declare em 1-2 linhas: o objetivo desta etapa, a estratégia e o critério de "pronto".
 - **Executar:** aja e **monitore** — a estratégia está funcionando? Um ajuste consciente por vez.
 - **Avaliar:** compare com o critério e **feche SEMPRE com redesenho**: "o que faremos diferente no próximo ciclo?". Avaliar sem redesenhar é só dar nota.
-- **Granularidade:** mini-avaliação (1 linha) ao fim de cada ETAPA; o ✅ Checkpoint formal (com redesenho registrado) ao fim de cada CICLO.
+- **Granularidade:** mini-avaliação (1 linha, fica no chat) ao fim de cada ETAPA; o ✅ Checkpoint formal (redesenho registrado na seção 🔁 do contexto) ao fim de cada CICLO.
 
 > Base: modelo **PLEA** de Pedro Rosário (Autorregulação da Aprendizagem, U. Minho) — a adaptação aos ciclos Onion é nossa.
 

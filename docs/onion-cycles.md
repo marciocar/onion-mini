@@ -13,6 +13,7 @@
 
 ### Etapa 1: Coleta (Collect) [P]
 0. Declare o critério de "pronto" desta coleta (o que precisa estar claro para a Spec começar).
+0.5. **Greenfield** (contexto ainda template/vazio): preencha as seções §1-§4 do `business-context-lite.md` NESTA coleta, junto com o usuário — só então valide a dor.
 1. Valide qual "Dor do Cliente" (do `business-context-lite.md`) a ideia resolve.
 2. Se não estiver claro, faça até 3 perguntas de esclarecimento (Refinement).
 3. Resuma a descoberta principal no chat de forma sintética.
@@ -23,14 +24,14 @@
 3. Defina as Regras de Negócio (ex: limites, permissões, etc.).
 
 ### Etapa 3: Consolidação (Feature) [A]
-1. Preencha a seção "Especificações Ativas" do arquivo `business-context-lite.md`.
+1. Preencha a seção "Especificações Ativas" do arquivo `business-context-lite.md` (suposições não confirmadas vão para "Pendências de Validação" com `[INFERIDO]`).
 2. Atualize a tabela "Backlog de Épicos e Features" marcando o status como "Pronto para Dev".
 3. **Cenário B (IDE Agêntica):** Edite `business-context-lite.md` diretamente e mostre o resumo das mudanças.
 4. **Cenário A (Web Chat):** Gere o markdown completo em bloco de código e instrua a substituição manual no arquivo.
 5. Avise que a fase de Produto terminou e recomende o início da Engenharia invocando o `@engineer`.
 
 **✅ Checkpoint PLEA (fechamento do ciclo):** a spec cumpre o critério de "pronto" definido na
-Coleta? Registre em 1 linha **o redesenho**: o que faremos diferente na próxima feature.
+Coleta? Registre **o redesenho** (1 linha) na seção **§8 🔁 Redesenhos** do `business-context-lite.md`.
 
 ---
 
@@ -48,6 +49,7 @@ Coleta? Registre em 1 linha **o redesenho**: o que faremos diferente na próxima
 2. Escreva uma seção "Plano para [Nome da Feature]" para o `technical-context-lite.md`.
 3. Defina os arquivos a serem criados/modificados e crie um **checklist passo a passo — este
    checklist É o seu quadro de tasks** (cada item = uma task com status `A Fazer → Em Dev → Feito`).
+   Decisão de arquitetura com trade-off? Registre na tabela **ADR-lite** (§4 do technical-context).
 4. **Cenário B:** Edite `technical-context-lite.md` diretamente e peça aprovação.
 5. **Cenário A:** Entregue o markdown em bloco de código e peça aprovação.
 
@@ -65,7 +67,7 @@ Coleta? Registre em 1 linha **o redesenho**: o que faremos diferente na próxima
 3. **Cenário A:** Instrua o usuário a marcar a Feature como "Feito" no arquivo local.
 
 **✅ Checkpoint PLEA (fechamento do ciclo):** o critério de "pronto" da Etapa 1 foi cumprido com
-evidência? Registre em 1 linha **o redesenho**: o que muda no processo na próxima feature.
+evidência? Registre **o redesenho** (1 linha) na seção **§7 🔁 Redesenhos** do `technical-context-lite.md`.
 
 ---
 
