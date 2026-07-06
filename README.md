@@ -34,6 +34,7 @@ Neste cenário, a IA guiará as fases de Produto e Engenharia através de respos
         3. Na área de *Knowledge*, faça o upload dos 3 arquivos da pasta `docs/` para servirem de referência de regras e templates.
         4. Certifique-se de habilitar o "Code Interpreter" nas configurações para melhor raciocínio e escrita lógica.
         5. Passo a passo campo-a-campo (nome, descrição, conversation starters, capabilities) em [`GPT-SETUP.md`](./GPT-SETUP.md).
+        6. GPT já publicado: [Onion Mini no ChatGPT](https://chatgpt.com/g/g-6a4bf16ff65081919bfa7d98fe28b13f-onion-mini).
     *   **Opção B: ChatGPT Projects (Ideal para Repositórios/Times)**:
         1. Crie um **Project** (disponível para contas Team/Enterprise).
         2. Nas *Custom Instructions* do projeto, insira o conteúdo do [`ONION-MASTER-PROMPT.md`](./ONION-MASTER-PROMPT.md).

@@ -1,5 +1,9 @@
 # Como montar o Custom GPT "Onion Mini" no ChatGPT
 
+> ✅ **Já criado**: [chatgpt.com/g/g-6a4bf16ff65081919bfa7d98fe28b13f-onion-mini](https://chatgpt.com/g/g-6a4bf16ff65081919bfa7d98fe28b13f-onion-mini)
+> (2026-07-06). Este guia continua valendo como referência para qualquer edição futura — o GPT
+> Builder é uma tela autenticada da OpenAI; ninguém edita esse GPT por fora do próprio ChatGPT.
+
 Guia complementar ao [`README.md`](./README.md) §2 (Cenário A → ChatGPT → Custom GPTs) — aqui vai o
 conteúdo exato de cada campo do GPT Builder, pronto para copiar. Nenhum arquivo novo de conteúdo é
 necessário: o **system prompt** já existe em [`ONION-MASTER-PROMPT.md`](./ONION-MASTER-PROMPT.md) e
