@@ -141,6 +141,12 @@ do [Sistema Onion completo](https://onionevolve.com) (plataforma: Claude Code). 
 construiu aqui (contextos SSOT, ciclos, sessões) migra sem retrabalho: o Mini é a mesma
 metodologia, só que destilada.
 
+## Publicação (web)
+
+Vitrine pública em **https://onionevolve.com/mini/** (VPS do Onion, Caddy file_server).
+Fonte = `site/index.html` deste repo (design system herdado do site); webroot é derivado.
+Deploy: `rsync -a --delete site/ onion-vps:/var/www/onion-landing/mini/` após commit na main.
+
 ## Créditos
 
 - O motor PLEA é o modelo de **Pedro Rosário** (Autorregulação da Aprendizagem, Universidade do
