@@ -1,6 +1,6 @@
 # Business Context
 
-> Este arquivo é a fonte de verdade para Produto. O agente `@product` atualizará este arquivo quando houver novas descobertas.
+> Este arquivo é a **SSOT (fonte única de verdade) de Produto** — outros artefatos CITAM este arquivo, nunca duplicam seu conteúdo. O agente `@product` o atualiza a cada descoberta.
 
 ## 1. Visão do Produto
 [Descreva aqui o que é o seu projeto, quem é o público-alvo e qual é o seu principal diferencial.]

@@ -1,6 +1,6 @@
 # Technical Context
 
-> Este arquivo é a fonte de verdade para Engenharia. O agente `@engineer` atualizará este arquivo quando houver mudanças na arquitetura.
+> Este arquivo é a **SSOT (fonte única de verdade) de Engenharia** — outros artefatos CITAM este arquivo, nunca duplicam seu conteúdo. O agente `@engineer` o atualiza a cada mudança de arquitetura.
 
 ## 1. Stack Tecnológica
 - **Linguagem:** [Sua linguagem primária]

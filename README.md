@@ -1,12 +1,12 @@
-# Manual de Uso: Onion Portable 🧅
+# Manual de Uso: Onion Mini 🧅
 
-Bem-vindo ao **Onion Portable**. Esta é uma versão super enxuta da metodologia Spec-as-Code do Sistema Onion, desenhada para rodar em Web Chats restritos (Claude.ai, ChatGPT Custom GPTs, Gemini) e também nativamente em IDEs Agênticas (Antigravity, Cursor, Claude Code, Zed, ...).
+Bem-vindo ao **Onion Mini** (antes "Onion Portable") — **a versão mini e portátil do Sistema Onion**: a mesma metodologia Spec-as-Code, destilada para caber em qualquer IA. É o **começo ideal para quem está iniciando no desenvolvimento com IA** (especialmente na gestão de tasks de desenvolvimento), rodando em Web Chats gratuitos (Claude.ai, ChatGPT, Gemini) e nativamente em IDEs Agênticas (Antigravity, Cursor, Claude Code, Zed, ...). Traz o ciclo de Produto e os contextos de Negócio/Técnico como SSOT, o motor **PLEA** (Planificar→Executar→Avaliar, modelo de Pedro Rosário) e o task management agnóstico de ferramenta (SDAAL destilado).
 
 ---
 
 ## 1. O que tem no pacote?
 
-A pasta `onion-portable` contém:
+A pasta `onion-mini` contém:
 - **`ONION-MASTER-PROMPT.md`**: O "Cérebro". É a instrução que você deve dar à IA para que ela assuma as personas do Onion.
 - **`docs/`**: A pasta com os 3 arquivos de contexto/ciclo que guiam a IA e guardam as informações do seu projeto:
   1. `business-context-lite.md` — Contexto de Negócio (o que construir)
@@ -72,7 +72,7 @@ Neste cenário, a própria IDE lerá e atualizará os arquivos de contexto de fo
 
 ## 3. Como usar no dia a dia (O Ciclo de Vida)
 
-O Onion Portable não é um gerador de código descontrolado. Ele segue regras estritas. Aqui estão os gatilhos e fluxos que você deve usar na conversa com a IA:
+O Onion Mini não é um gerador de código descontrolado. Ele segue regras estritas. Aqui estão os gatilhos e fluxos que você deve usar na conversa com a IA:
 
 ### 💡 Criando algo novo (O Ciclo de Produto)
 - **O que você diz:** *"Tive uma ideia: quero colocar uma funcionalidade de exportar para PDF."*
@@ -124,3 +124,21 @@ Para garantir que o desenvolvimento siga o padrão Spec-as-Code de forma consist
 *   **Bloqueio de Bypass:** Se você pedir código diretamente sem antes especificar o Produto ou planejar a Engenharia, a IA fará um alerta de auto-consciência lembrando-o de seguir as fases necessárias para manter a qualidade e o sincronismo.
 *   **Auto-Diagnóstico (`/status` ou `/health`):** A qualquer momento no chat, você pode digitar `/status` ou `/health`. A IA fará uma varredura completa nas pastas do projeto, validando se a documentação e o código real estão alinhados, retornando um status de saúde do Onion (OK, Desalinhado ou Incompleto) e as ações corretivas.
 *   **Chamada por Comando ("Onion" ou `@onion`):** Ao chamar por "Onion" ou digitar `@onion` no chat, você sinaliza explicitamente para o Orquestrador assumir a liderança ativa, analisar o estado atual da conversa e do projeto, e propor o próximo passo lógico ou executar tarefas de sincronização/diagnóstico de forma autônoma.
+
+---
+
+## Quando o projeto crescer: o Sistema Onion completo
+
+O Onion Mini é a porta de entrada. Quando seu projeto precisar de mais — 95+ comandos, 51 agentes
+especialistas, compliance (ISO/SOC2), task managers plugados de verdade (Jira/ClickUp/Asana/Linear
+via SDAAL), knowledge graphs de investigação, federação multi-repo — o caminho natural é a adoção
+do [Sistema Onion completo](https://onionevolve.com) (plataforma: Claude Code). Tudo que você
+construiu aqui (contextos SSOT, ciclos, sessões) migra sem retrabalho: o Mini é a mesma
+metodologia, só que destilada.
+
+## Créditos
+
+- O motor PLEA é o modelo de **Pedro Rosário** (Autorregulação da Aprendizagem, Universidade do
+  Minho); a adaptação aos ciclos é do Sistema Onion.
+- O Onion Mini é a **destilação curada** do [Sistema Onion](https://onionevolve.com) — doutrina
+  flui do core para cá por co-evolução; este repo nunca vira cópia do framework completo.
