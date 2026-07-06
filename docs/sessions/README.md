@@ -1,4 +1,4 @@
-# Histórico de Sessões — Onion Portable 🧅
+# Histórico de Sessões — Onion Mini 🧅
 
 Este diretório armazena o histórico e o progresso de cada sessão de desenvolvimento do projeto. Cada sessão registra os objetivos, mudanças realizadas, decisões tomadas e arquivos alterados.
 

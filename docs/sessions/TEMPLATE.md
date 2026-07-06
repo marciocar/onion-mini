@@ -1,4 +1,4 @@
-# Session Template — Onion Portable 🧅
+# Session Template — Onion Mini 🧅
 
 Use estes templates para gerar a documentação em cada nova sessão de desenvolvimento (`docs/sessions/YYYY-MM-DD_HHMM_nome-do-topico/`).
 

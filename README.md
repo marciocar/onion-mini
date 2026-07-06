@@ -7,6 +7,7 @@ Bem-vindo ao **Onion Mini** (antes "Onion Portable") — **a versão mini e port
 ## 1. O que tem no pacote?
 
 A pasta `onion-mini` contém:
+- **`AGENTS.md`**: Config universal para agentes de IA (padrão lido nativamente por Codex, Cursor, Copilot, Zed, Aider...) — aponta para o Master Prompt. **`CLAUDE.md`** importa-o para o Claude Code.
 - **`ONION-MASTER-PROMPT.md`**: O "Cérebro". É a instrução que você deve dar à IA para que ela assuma as personas do Onion.
 - **`docs/`**: A pasta com os 3 arquivos de contexto/ciclo que guiam a IA e guardam as informações do seu projeto:
   1. `business-context-lite.md` — Contexto de Negócio (o que construir)
@@ -47,6 +48,10 @@ Neste cenário, a IA guiará as fases de Produto e Engenharia através de respos
 ### ⚙️ Cenário B: IDEs Agênticas (Escrita Direta no Sistema de Arquivos)
 Neste cenário, a própria IDE lerá e atualizará os arquivos de contexto de forma autônoma. Você não precisa copiar e colar nada, apenas aprovar as alterações.
 
+*   **✅ Caminho rápido — qualquer IDE com suporte a `AGENTS.md` (Codex, Cursor, Copilot, Zed, Aider, Gemini CLI...):**
+    1. Copie `AGENTS.md`, `CLAUDE.md`, `ONION-MASTER-PROMPT.md` e a pasta `docs/` para a raiz do seu projeto.
+    2. Pronto — o agente auto-descobre o `AGENTS.md` (e o Claude Code lê o `CLAUDE.md`, que o importa via `@AGENTS.md`). As instruções por IDE abaixo são **fallback** para ambientes sem esse suporte.
+
 *   **Antigravity IDE [Recomendado para Agentes Autônomos]**:
     1. Cole a pasta `docs/` na raiz do seu projeto.
     2. Coloque o arquivo [`ONION-MASTER-PROMPT.md`](./ONION-MASTER-PROMPT.md) na pasta `.agents/rules/` (ou importe-o como regra global da IDE).
@@ -60,7 +65,7 @@ Neste cenário, a própria IDE lerá e atualizará os arquivos de contexto de fo
     3. Instrua a IA a seguir rigorosamente as personas e etapas detalhadas no prompt.
 *   **Claude Code / Cowork**:
     1. Cole a pasta `docs/` na raiz do seu projeto.
-    2. Adicione o arquivo [`ONION-MASTER-PROMPT.md`](./ONION-MASTER-PROMPT.md) na pasta `.claude/rules/` ou como regra do seu ambiente de agente.
+    2. Copie `CLAUDE.md` + `AGENTS.md` para a raiz (o Claude Code lê o `CLAUDE.md`, que importa o `AGENTS.md` — nada de pastas especiais).
     3. O agente CLI do Claude Code lerá os arquivos de ciclo e o contexto técnico/negócio para planejar e executar a escrita do código.
 *   **Zed (Zed AI / Assistants)**:
     1. Cole a pasta `docs/` na raiz do seu projeto.
