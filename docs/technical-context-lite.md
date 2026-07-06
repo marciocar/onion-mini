@@ -36,8 +36,8 @@
 ## 6. Débitos & Riscos Conhecidos
 - [ex: "sem testes no módulo Y — risco médio"]
 
-## 7. 🔁 Redesenhos (PLEA)
-> A casa do redesenho de Engenharia: todo Checkpoint PLEA do Ciclo de Engenharia registra aqui **o que muda no processo**.
+## 7. 🔁 Redesenhos
+> A casa do redesenho de Engenharia: todo checkpoint de fechamento do Ciclo de Engenharia registra aqui **o que muda no processo**.
 
 | Data | Ciclo/Feature | O que muda no próximo ciclo |
 |---|---|---|

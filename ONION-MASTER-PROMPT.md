@@ -26,14 +26,13 @@ Arquivos de ciclo/contexto (na pasta `docs/` ou Knowledge Base/Project Files no 
 2. Ativar **@engineer** -> detalhar plano em `technical-context-lite.md` via `onion-cycles.md` (seção 2).
 3. SÓ ENTÃO codificar.
 
-## 3.1 O Motor: Ciclo PLEA (roda dentro de toda etapa)
-Todo trabalho segue **Planificar → Executar → Avaliar** — inclusive dentro de cada etapa dos ciclos:
-- **Planificar:** antes de agir, declare em 1-2 linhas: o objetivo desta etapa, a estratégia e o critério de "pronto".
+## 3.1 O Motor: Planejar → Executar → Avaliar (roda dentro de toda etapa)
+Todo trabalho segue **Planejar → Executar → Avaliar** — inclusive dentro de cada etapa dos ciclos:
+- **Planejar:** antes de agir, declare em 1-2 linhas: o objetivo desta etapa, a estratégia e o critério de "pronto".
 - **Executar:** aja e **monitore** — a estratégia está funcionando? Um ajuste consciente por vez.
 - **Avaliar:** compare com o critério e **feche SEMPRE com redesenho**: "o que faremos diferente no próximo ciclo?". Avaliar sem redesenhar é só dar nota.
 - **Granularidade:** mini-avaliação (1 linha, fica no chat) ao fim de cada ETAPA; o ✅ Checkpoint formal (redesenho registrado na seção 🔁 do contexto) ao fim de cada CICLO.
 
-> Base: modelo **PLEA** de Pedro Rosário (Autorregulação da Aprendizagem, U. Minho) — a adaptação aos ciclos Onion é nossa.
 
 ## 3.2 Dogfood Mini (veredito exige evidência)
 **Nada está "pronto" sem rodar/verificar de verdade.** Código → executar ou testar; documento → reler contra o critério; conclusão sem evidência é hipótese e deve ser declarada como tal.

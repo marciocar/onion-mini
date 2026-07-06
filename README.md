@@ -1,6 +1,6 @@
 # Manual de Uso: Onion Mini 🧅
 
-Bem-vindo ao **Onion Mini** (antes "Onion Portable") — **a versão mini e portátil do Sistema Onion**: a mesma metodologia Spec-as-Code, destilada para caber em qualquer IA. É o **começo ideal para quem está iniciando no desenvolvimento com IA** (especialmente na gestão de tasks de desenvolvimento), rodando em Web Chats gratuitos (Claude.ai, ChatGPT, Gemini) e nativamente em IDEs Agênticas (Antigravity, Cursor, Claude Code, Zed, ...). Traz o ciclo de Produto e os contextos de Negócio/Técnico como SSOT, o motor **PLEA** (Planificar→Executar→Avaliar, modelo de Pedro Rosário) e o task management agnóstico de ferramenta (SDAAL destilado).
+Bem-vindo ao **Onion Mini** (antes "Onion Portable") — **a versão mini e portátil do Sistema Onion**: a mesma metodologia Spec-as-Code, destilada para caber em qualquer IA. É o **começo ideal para quem está iniciando no desenvolvimento com IA** (especialmente na gestão de tasks de desenvolvimento), rodando em Web Chats gratuitos (Claude.ai, ChatGPT, Gemini) e nativamente em IDEs Agênticas (Antigravity, Cursor, Claude Code, Zed, ...). Traz o ciclo de Produto e os contextos de Negócio/Técnico como SSOT, o motor **Planejar→Executar→Avaliar** (fechando sempre com redesenho) e o task management agnóstico de ferramenta (SDAAL destilado).
 
 ---
 
@@ -149,7 +149,8 @@ Deploy: `rsync -a --delete site/ onion-vps:/var/www/onion-landing/mini/` após c
 
 ## Créditos
 
-- O motor PLEA é o modelo de **Pedro Rosário** (Autorregulação da Aprendizagem, Universidade do
-  Minho); a adaptação aos ciclos é do Sistema Onion.
+- O motor Planejar→Executar→Avaliar é baseado no modelo **PLEA** de **Pedro Rosário** (Autorregulação
+  da Aprendizagem, Universidade do Minho); a adaptação aos ciclos é do Sistema Onion. Por desenho, o
+  nome da teoria assina AQUI (créditos) e desaparece no fluxo — o usuário pratica sem precisar do jargão.
 - O Onion Mini é a **destilação curada** do [Sistema Onion](https://onionevolve.com) — doutrina
   flui do core para cá por co-evolução; este repo nunca vira cópia do framework completo.

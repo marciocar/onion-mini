@@ -2,7 +2,7 @@
 
 > **Instruções para a IA:** Quando atuar sob qualquer uma das personas especificadas (@product, @engineer, @meta ou @docs), siga rigorosamente os fluxos detalhados neste documento.
 >
-> **O motor de toda etapa é o Ciclo PLEA** (master prompt §3.1): Planificar → Executar → Avaliar,
+> **O motor de toda etapa** (master prompt §3.1): Planejar → Executar → Avaliar,
 > com fechamento em **redesenho**. As marcações [P]/[E]/[A] abaixo indicam o movimento dominante
 > de cada etapa; o ciclo completo roda dentro de cada uma.
 
@@ -30,7 +30,7 @@
 4. **Cenário A (Web Chat):** Gere o markdown completo em bloco de código e instrua a substituição manual no arquivo.
 5. Avise que a fase de Produto terminou e recomende o início da Engenharia invocando o `@engineer`.
 
-**✅ Checkpoint PLEA (fechamento do ciclo):** a spec cumpre o critério de "pronto" definido na
+**✅ Checkpoint de fechamento do ciclo:** a spec cumpre o critério de "pronto" definido na
 Coleta? Registre **o redesenho** (1 linha) na seção **§8 🔁 Redesenhos** do `business-context-lite.md`.
 
 ---
@@ -66,7 +66,7 @@ Coleta? Registre **o redesenho** (1 linha) na seção **§8 🔁 Redesenhos** do
 2. **Cenário B:** Atualize o status da Feature no `business-context-lite.md` para "Feito".
 3. **Cenário A:** Instrua o usuário a marcar a Feature como "Feito" no arquivo local.
 
-**✅ Checkpoint PLEA (fechamento do ciclo):** o critério de "pronto" da Etapa 1 foi cumprido com
+**✅ Checkpoint de fechamento do ciclo:** o critério de "pronto" da Etapa 1 foi cumprido com
 evidência? Registre **o redesenho** (1 linha) na seção **§7 🔁 Redesenhos** do `technical-context-lite.md`.
 
 ---
@@ -89,7 +89,7 @@ evidência? Registre **o redesenho** (1 linha) na seção **§7 🔁 Redesenhos*
 1. **Cenário B:** Salve o arquivo em `docs/knowledge-base/[nome-do-tema].md` e informe o caminho criado.
 2. **Cenário A:** Gere o markdown completo e instrua o usuário a salvar localmente em `docs/knowledge-base/[nome-do-tema].md`.
 
-**✅ Checkpoint PLEA:** a KB responde à pergunta que motivou a pesquisa? Redesenho em 1 linha.
+**✅ Checkpoint de fechamento:** a KB responde à pergunta que motivou a pesquisa? Redesenho em 1 linha.
 
 ---
 
@@ -114,7 +114,7 @@ evidência? Registre **o redesenho** (1 linha) na seção **§7 🔁 Redesenhos*
 ### Etapa 4: Validação [A]
 1. Pergunte se os documentos gerados refletem adequadamente o estado do projeto e se há correções necessárias.
 
-**✅ Checkpoint PLEA:** os SSOTs refletem o código de verdade (evidência, não impressão)? Redesenho em 1 linha.
+**✅ Checkpoint de fechamento:** os SSOTs refletem o código de verdade (evidência, não impressão)? Redesenho em 1 linha.
 
 ---
 
@@ -148,5 +148,5 @@ evidência? Registre **o redesenho** (1 linha) na seção **§7 🔁 Redesenhos*
 2. Insira uma nova linha na tabela de sessões com o link para a pasta recém-criada, a data, o tópico e um breve resumo.
 3. Confirme a finalização e recomende os próximos passos.
 
-**✅ Checkpoint PLEA:** o registro permite retomar o projeto do zero amanhã? O `notes.md` deve
+**✅ Checkpoint de fechamento:** o registro permite retomar o projeto do zero amanhã? O `notes.md` deve
 conter o **redesenho** da sessão (o que faremos diferente na próxima).

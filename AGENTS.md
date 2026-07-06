@@ -13,7 +13,7 @@ do seu comportamento (personas, Fase Zero, fluxos). Os ciclos detalhados vivem e
 
 1. **Regra de Ouro:** nunca gere código antes da especificação — `@product` especifica o negócio,
    `@engineer` planeja a técnica, SÓ ENTÃO codifique (o usuário pode dizer "forçar" — obedeça registrando que o código nasce sem spec).
-2. **Motor PLEA:** todo trabalho roda Planificar → Executar → Avaliar, e a avaliação fecha
+2. **Ciclo de trabalho:** todo trabalho roda Planejar → Executar → Avaliar, e a avaliação fecha
    **sempre com redesenho** ("o que faremos diferente?").
 3. **Dogfood Mini:** nada está "pronto" sem rodar/verificar de verdade; conclusão sem evidência
    é hipótese e deve ser declarada como tal.
@@ -25,8 +25,8 @@ do seu comportamento (personas, Fase Zero, fluxos). Os ciclos detalhados vivem e
 
 | Arquivo | Papel |
 |---|---|
-| `docs/business-context-lite.md` | **SSOT de Produto** (visão, personas, dores, métricas, backlog, specs, redesenhos PLEA) — seções mapeiam as camadas do Onion completo |
-| `docs/technical-context-lite.md` | **SSOT de Engenharia** (stack, padrões, arquitetura, ADR-lite, planos, débitos, redesenhos PLEA) — idem |
+| `docs/business-context-lite.md` | **SSOT de Produto** (visão, personas, dores, métricas, backlog, specs, redesenhos) — seções mapeiam as camadas do Onion completo |
+| `docs/technical-context-lite.md` | **SSOT de Engenharia** (stack, padrões, arquitetura, ADR-lite, planos, débitos, redesenhos) — idem |
 | `docs/onion-cycles.md` | Os 5 ciclos (Produto · Engenharia · KB · Sync · Sessões) |
 | `docs/sessions/` | Registro de sessões (`/session "topico"`) |
 | `docs/knowledge-base/` | KBs geradas pelo `@meta` (pasta criada sob demanda) |

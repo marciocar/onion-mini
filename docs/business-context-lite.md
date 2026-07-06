@@ -36,8 +36,8 @@
 ## 7. Pendências de Validação
 [Tudo que foi assumido sem confirmação do usuário entra aqui marcado com `[INFERIDO]` — e sai quando validado.]
 
-## 8. 🔁 Redesenhos (PLEA)
-> A casa do redesenho de Produto: todo Checkpoint PLEA do Ciclo de Produto registra aqui **o que faremos diferente**.
+## 8. 🔁 Redesenhos
+> A casa do redesenho de Produto: todo checkpoint de fechamento do Ciclo de Produto registra aqui **o que faremos diferente**.
 
 | Data | Ciclo/Feature | O que muda no próximo ciclo |
 |---|---|---|
