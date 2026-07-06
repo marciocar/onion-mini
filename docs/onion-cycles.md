@@ -12,6 +12,7 @@
 *Objetivo: Transformar uma ideia em uma Feature especificada pronta para desenvolvimento.*
 
 ### Etapa 1: Coleta (Collect) [P]
+0. Declare o critério de "pronto" desta coleta (o que precisa estar claro para a Spec começar).
 1. Valide qual "Dor do Cliente" (do `business-context-lite.md`) a ideia resolve.
 2. Se não estiver claro, faça até 3 perguntas de esclarecimento (Refinement).
 3. Resuma a descoberta principal no chat de forma sintética.
