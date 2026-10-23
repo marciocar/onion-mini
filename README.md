@@ -91,4 +91,4 @@ MIT — veja `LICENSE`.
 Este repositório é **gerado** a partir do core do Onion e não recebe Pull Request: uma correção feita
 aqui seria sobrescrita na próxima geração.
 
-Materializado do core no pin `eb598aa5bcdd` · papel `mini`.
+Materializado do core no pin `00525a3ee5aa` · papel `mini`.
